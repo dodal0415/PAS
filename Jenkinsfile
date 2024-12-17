@@ -31,7 +31,7 @@ pipeline {
                     sh "echo ${DOCKERHUB_CREDENTIALS_PSW} | docker login -u ${DOCKERHUB_CREDENTIALS_USR} --password-stdin"
 
                     // Docker 이미지 빌드
-                    sh 'docker build -t wjddntyvld/artion:latest -f back/Dockerfile .'
+                    sh 'docker build -t wjddntyvld/forcatmung:latest -f back/Dockerfile .'
                 }
             }
         }
@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     // Docker 이미지 푸시
-                    sh 'docker push wjddntyvld/artion:latest'
+                    sh 'docker push wjddntyvld/forcatmung:latest'
                 }
             }
         }
@@ -48,14 +48,14 @@ pipeline {
             steps {
                 script {
                     // 최신 이미지를 pull합니다.
-                    sh 'docker pull wjddntyvld/artion:latest'       
+                    sh 'docker pull wjddntyvld/forcatmung:latest'       
                    sh '''
                         containers=$(docker ps -q --filter "publish=8000")
                         echo "${containers}" | xargs docker stop
                         echo "${containers}" | xargs docker rm
                     '''   
                     // 새로운 이미지를 기반으로 컨테이너를 실행합니다.
-                    sh 'docker run -d -p 8000:8000 wjddntyvld/artion:latest'
+                    sh 'docker run -d -p 8000:8000 wjddntyvld/forcatmung:latest'
                 }
             }
         } 
