@@ -83,6 +83,6 @@
 
 ## 👪 팀원 소개
 
-| [이정우]([https://](https://github.com/Gom534)                                  | [이세울](https://github.com/sl39) | [양성대](https://github.com/codingnewwbie)                           | [이지현](https://github.com/jjhh1234)                              | [오재경](https://github.com/dodal0415)                             | [노하영](https://github.com/nohhayeong)                                  | [주효빈](https://github.com/hyobin0704)                   |
+| [이정우](https://github.com/Gom534)                                  | [이세울](https://github.com/sl39) | [양성대](https://github.com/codingnewwbie)                           | [이지현](https://github.com/jjhh1234)                              | [오재경](https://github.com/dodal0415)                             | [노하영](https://github.com/nohhayeong)                                  | [주효빈](https://github.com/hyobin0704)                   |
 | ------------------------------------ | ------------------------------ | ----------------------------- | -------------------------------- | ------------------------------- | ------------------------------------ | --------------------- |
 | 총괄 팀장, 벡엔드 , AR 전시 서비스, 및 유저 팔로우 서비스 | 백엔드 팀장, 그림 경매 서비스, 그림 입찰 및 소켓  | 벡엔드, 구매내역 및 판매내역 서비스,개인정보 서비스 | 프론트 팀장, UI/UX, 로그인 서비스, 개인정보 서비스 | 프론트,UI/UX, 작품 상세 페이지, 팔로우 페이지 및 AR전시 서비스 | 프론트,UI/UX, 메인페이지 및 작품 검색 및 작가 검색 서피스 | 프론트,UI/UX,경매 및 결제 서비스 |
